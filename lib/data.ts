@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import boxOfficeImg from "@/public/boxOffice.png";
+import DocChatImage from "@/public/DocChat.png"
 
 
 export const links = [
@@ -60,26 +61,28 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+
   {
-    title: "DMDS-APP",
+    title: "DocChat",
     description:
-      "I am working as a front-end developer currenlty on this project. It is an application developed for data scientists to suport them in data product journey.",
-    tags: ["React Js", "Neo4j", "Node Js", "Javascript" ,"Redux Saga"],
-    imageUrl: "",
+      "This application allows users to upload PDF files and interact with them through a chat interface. Users can ask questions related to the content of the uploaded PDF, and the system will analyze the document to provide accurate and relevant answers.",
+    tags: ["Prisma", "TypeScript", "Next.js","Tailwind", "Redux"],
+    imageUrl: DocChatImage,
   },
-  {
-    title: "DVA-APP",
-    description:
-      "It is an application build where User interface is build on top of python SQL engine. User can create DDL/DML procedure using this application.",
-    tags: ["React Js", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "",
-  },
+ 
   {
     title: "Box Office Buster",
     description:
       "A website that I created as final year project to get information related to movies.",
     tags: ["React", "Javascript", "SCSS"],
     imageUrl: boxOfficeImg,
+  },
+  {
+    title: "DMDS-APP",
+    description:
+      "I am working as a front-end developer currenlty on this project. It is an application developed for data scientists to suport them in data product journey.",
+    tags: ["React Js", "Neo4j", "Node Js", "Javascript" ,"Redux Saga"],
+    imageUrl: "",
   },
 ] as const;
 
