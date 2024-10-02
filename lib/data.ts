@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import boxOfficeImg from "@/public/boxOffice.png";
 import DocChatImage from "@/public/DocChat.png"
+import PatientImage from "@/public/PatientManagement.png"
 
 
 export const links = [
@@ -78,11 +79,11 @@ export const projectsData = [
     imageUrl: boxOfficeImg,
   },
   {
-    title: "DMDS-APP",
+    title: "Patient Management System",
     description:
-      "I am working as a front-end developer currenlty on this project. It is an application developed for data scientists to suport them in data product journey.",
-    tags: ["React Js", "Neo4j", "Node Js", "Javascript" ,"Redux Saga"],
-    imageUrl: "",
+      "A web-based Patient Management System for efficiently organizing, tracking, and managing patient information, appointments, and medical records.",
+    tags: ["React Js", "NextJs", "twilio", "typescript", "Tailwind" ],
+    imageUrl: PatientImage,
   },
 ] as const;
 
